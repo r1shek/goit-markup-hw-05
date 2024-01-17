@@ -574,7 +574,10 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+}
+.icon-subscribe {
+  fill: #f4f4fd;
+  margin-left: 16px;
 }
 
 .subscribe-btn-div {
