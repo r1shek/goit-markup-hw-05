@@ -532,10 +532,10 @@ h2 {
 }
 .form-footer {
   display: flex;
+  gap: 24px;
 }
 .label-footer {
   display: flex;
-  gap: 24px;
 }
 .footer-input {
   color: #fff;
@@ -657,6 +657,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .modal-field {
   margin-bottom: 8px;
 }
@@ -752,26 +753,31 @@ h2 {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .checkbox-icon {
 }
-.modal-checkbox:checked .checkbox-new {
+.modal-checkbox:checked + .privacy-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 .privacy-link {
   color: #4d5ae5;
-
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.48px;
   text-decoration: underline;
 }
+
 .modal-send-btn {
   display: block;
-  max-width: 169px;
+  position: absolute;
+  content: '';
+  right: 50%;
+  transform: translateX(50%);
+  min-width: 169px;
   height: 56px;
   padding: 16px 32px;
   border-radius: 4px;
