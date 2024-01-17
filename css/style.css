@@ -560,13 +560,12 @@ h2 {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
-}
-.subscribe-text-btn {
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
+  gap: 16px;
 }
+
 .subscribe-btn-div {
   margin: auto 0;
 }
